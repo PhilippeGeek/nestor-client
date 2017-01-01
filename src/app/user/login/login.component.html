@@ -1,0 +1,6 @@
+<nav>
+  <ul class="nav nav-pills pull-right">
+    <li *ngIf="logged" role="presentation">Bonjour {{user.first_name}}</li>
+    <li *ngIf="!logged" role="presentation"><a href="#">Connexion</a></li>
+  </ul>
+</nav>
